@@ -26,7 +26,7 @@ function AllMeetupsPage() {
           meetups.push(meetup);
         }
 
-        setIsLoading(false);
+        setIsLoading(false); // reset loading to false
         setLoadedMeetups(meetups);
       });
   }, []);
